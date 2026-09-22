@@ -6,11 +6,19 @@ sitt eget repo och installeras med sin egen licens.
 ## Kom igång
 
 ```
-/plugin marketplace add bratland/plugins
+/plugin marketplace add https://github.com/bratland/plugins.git
 /plugin install resekoll@raion
 ```
 
 Uppdatera senare med `/plugin marketplace update`.
+
+**Skriv hela adressen.** Kortformen `bratland/plugins` får Claude att klona över
+SSH, vilket kräver att du har en SSH-nyckel registrerad hos GitHub. Med hela
+`https://`-adressen hämtas den över vanlig HTTPS och fungerar utan GitHub-konto.
+
+Har du varken git eller lust att hålla på med kommandon: be om en
+`.plugin`-fil i stället och öppna den i Claude-appen. Den installerar samma
+sak utan att något behöver hämtas från GitHub.
 
 ## Innehåll
 
