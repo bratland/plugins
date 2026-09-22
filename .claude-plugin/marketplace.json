@@ -19,7 +19,7 @@
       "version": "0.2.0",
       "category": "tooling",
       "keywords": ["resa", "bokning", "forelasning", "schemalagt", "bevakning", "excel", "outlook"],
-      "defaultEnabled": false
+      "defaultEnabled": true
     },
     {
       "name": "seo-genomlysning",
