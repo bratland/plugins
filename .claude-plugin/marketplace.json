@@ -20,6 +20,18 @@
       "category": "tooling",
       "keywords": ["resa", "bokning", "forelasning", "schemalagt", "bevakning", "excel", "outlook"],
       "defaultEnabled": false
+    },
+    {
+      "name": "seo-genomlysning",
+      "source": {
+        "source": "github",
+        "repo": "bratland/seo-genomlysning"
+      },
+      "description": "Komplett SEO- och GEO-genomlysning av en domän på svenska: teknisk crawl, on-page, AI-synlighet, sökord, lokal SEO och mätning, levererad som ett dokument med prioriterad åtgärdslista.",
+      "version": "1.0.0",
+      "category": "tooling",
+      "keywords": ["seo", "geo", "ai-synlighet", "llms-txt", "schema-org", "search-console", "ga4", "sverige"],
+      "defaultEnabled": false
     }
   ]
 }

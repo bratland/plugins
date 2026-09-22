@@ -17,6 +17,7 @@ Uppdatera senare med `/plugin marketplace update`.
 | Plugin | Skills | Vad det gör |
 | --- | --- | --- |
 | `resekoll` | 2 | Stämmer av ett föreläsningsschema mot resebokningar i mailen |
+| `seo-genomlysning` | 1 | Genomlyser en sajt för sök och AI-synlighet, och bygger åtgärderna |
 
 ### resekoll
 
@@ -34,6 +35,25 @@ Kräver en mailkoppling. Källa: [bratland/resekoll](https://github.com/bratland
 > Version 0.2.0 är prövad mot en demofil men aldrig mot riktig maildata. Kör den
 > i torrläge mot den medföljande `Resekoll_demo.xlsx` först, och jämför med
 > bladet `Facit`.
+
+### seo-genomlysning
+
+För den som vill veta varför sajten inte syns, och sedan få det åtgärdat.
+Genomlysningen ställer fyra frågor om syfte, omfång, datakällor och format, och
+levererar ett dokument med en åtgärdslista sorterad efter effekt per nedlagd
+timme.
+
+GEO-delen är den som skiljer den från en vanlig SEO-rapport: den kontrollerar
+om sajten går att läsa och citera av språkmodeller. Konkurrensen där är tunnare
+än i Google, och en sajt som bygger sitt innehåll i JavaScript är osynlig för
+GPTBot, ClaudeBot och PerplexityBot, som kör noll JavaScript.
+
+Ligger sajtens repo på maskinen bygger skillen också åtgärderna: schema,
+titlar, ortsidor och intern länkning, med kontroll hela vägen ut till den
+publicerade URL:en.
+
+Läser publik data utan koppling. GA4 och Search Console används om åtkomst ges.
+Källa: [bratland/seo-genomlysning](https://github.com/bratland/seo-genomlysning)
 
 ## Förutsättningar
 
