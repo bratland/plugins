@@ -1,0 +1,10 @@
+{
+  "name": "resekoll",
+  "version": "0.2.0",
+  "description": "Stämmer av ett föreläsningsschema mot resebokningar i mailen och larmar om luckor innan de hinner bli problem.",
+  "author": {
+    "name": "Raion AB"
+  },
+  "license": "MIT",
+  "keywords": ["resa", "bokning", "föreläsning", "schemalagt", "bevakning"]
+}

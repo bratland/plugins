@@ -3,10 +3,11 @@
 Verktyg för återkommande arbete som annars görs för hand. Varje plugin har sin
 egen licens.
 
-Plugins låg först i varsitt eget repo, som marketplacen pekade på med en
-`github`-källa. Terminalen klarar det, men en installation från skrivbordsappen
-föll på det, så pluginfilerna flyttas in hit efter hand och listas med en
-relativ sökväg i stället.
+Varje plugin bor i det här repot, i en egen mapp, och listas med en relativ
+sökväg. Plugins låg först i varsitt eget repo som marketplacen pekade på med en
+`github`-källa: terminalen klarar det, men en installation från skrivbordsappen
+föll på just den korsreferensen. Pluginens egna repon står kvar som kanonisk
+källa för ärenden och historik.
 
 ## Kom igång
 
@@ -43,7 +44,8 @@ Uppsättningen intervjuar användaren och anpassar sig till kolumnerna i den
 befintliga filen. Alla personliga inställningar bor i schemafilen, inget i
 pluginet, så nästa person installerar samma plugin och fyller i sitt eget blad.
 
-Kräver en mailkoppling. Källa: [bratland/resekoll](https://github.com/bratland/resekoll) · MIT
+Kräver en mailkoppling. Filerna bor i det här repot, under `resekoll/`. Kanonisk källa:
+[bratland/resekoll](https://github.com/bratland/resekoll) · MIT
 
 > Version 0.2.0 är prövad mot en demofil men aldrig mot riktig maildata. Kör den
 > i torrläge mot den medföljande `Resekoll_demo.xlsx` först, och jämför med

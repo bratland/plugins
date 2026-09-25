@@ -11,10 +11,7 @@
   "plugins": [
     {
       "name": "resekoll",
-      "source": {
-        "source": "github",
-        "repo": "bratland/resekoll"
-      },
+      "source": "./resekoll",
       "description": "Stämmer av föreläsningsschemat i Excel mot resebokningar i mailen och larmar om luckor i tid.",
       "version": "0.2.0",
       "category": "tooling",
