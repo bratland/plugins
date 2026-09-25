@@ -1,7 +1,12 @@
 # raion — publika Claude-plugins
 
-Verktyg för återkommande arbete som annars görs för hand. Varje plugin bor i
-sitt eget repo och installeras med sin egen licens.
+Verktyg för återkommande arbete som annars görs för hand. Varje plugin har sin
+egen licens.
+
+Plugins låg först i varsitt eget repo, som marketplacen pekade på med en
+`github`-källa. Terminalen klarar det, men en installation från skrivbordsappen
+föll på det, så pluginfilerna flyttas in hit efter hand och listas med en
+relativ sökväg i stället.
 
 ## Kom igång
 
@@ -61,7 +66,8 @@ titlar, ortsidor och intern länkning, med kontroll hela vägen ut till den
 publicerade URL:en.
 
 Läser publik data utan koppling. GA4 och Search Console används om åtkomst ges.
-Källa: [bratland/seo-genomlysning](https://github.com/bratland/seo-genomlysning)
+Filerna bor i det här repot, under `seo-genomlysning/`. Kanonisk källa med
+ärenden och historik: [bratland/seo-genomlysning](https://github.com/bratland/seo-genomlysning)
 
 ## Förutsättningar
 
