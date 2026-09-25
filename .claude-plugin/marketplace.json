@@ -31,7 +31,7 @@
       "version": "1.0.0",
       "category": "tooling",
       "keywords": ["seo", "geo", "ai-synlighet", "llms-txt", "schema-org", "search-console", "ga4", "sverige"],
-      "defaultEnabled": false
+      "defaultEnabled": true
     }
   ]
 }
